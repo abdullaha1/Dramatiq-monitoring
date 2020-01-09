@@ -1,0 +1,9 @@
+[Unit]
+Description=Rerun .service file after every 15 seconds
+
+[Timer]
+OnBootSec=15min
+OnUnitActiveSec=15s
+
+[Install]
+WantedBy=timers.target
