@@ -1,0 +1,8 @@
+[Unit]
+Description=Check if dramatiq workers are working
+
+[Service]
+User=spekit
+Group=spekit
+ExecStart=/home/spekit/check_dramatiq.sh
+
